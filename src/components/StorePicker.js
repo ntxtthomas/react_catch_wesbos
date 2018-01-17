@@ -4,7 +4,7 @@ class StorePicker extends React.Component {
 // comments either go outside of the return...
   render() {
     return (
-      <form className="store-collector">
+      <form className="store-selector">
       {/* .. or inside of the parent in the return */}
         <h2>Please Enter A Store</h2>
         <input type="text" required placeholder="Store Name" />
